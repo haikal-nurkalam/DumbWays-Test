@@ -3,7 +3,7 @@
  
 int main() {
     unsigned long pecahan[] = {100000, 50000, 20000, 10000, 5000,
-    2000, 1000, 500, 200, 100, 50, 25, 10, 1};
+    2000,500};
     
     unsigned long total;
     unsigned long uang;
@@ -16,7 +16,7 @@ int main() {
     
     printf("Ketik total belanja: Rp ");
     scanf("%lu", &total);
-    printf("Ketik uang yang diserahkan: Rp ");
+    printf("Ketik uang pembeli: Rp ");
     scanf("%lu", &uang);
     
     printf("\n");
